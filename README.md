@@ -79,8 +79,9 @@ mSerialPortManager.setOnSerialPortDataListener(new OnSerialPortDataListener() {
 - 返回：串口打开是否成功
 
 ``` Java
-boolean openSerialPort = mSerialPortManager.openSerialPort(device.getFile(), 115200);
+boolean openSerialPort = mSerialPortManager.openSerialPort(device.getFile(), 9600);
 ```
+### 选择以字符串还是十六进制接收和发送
 
 ### 发送数据
 
