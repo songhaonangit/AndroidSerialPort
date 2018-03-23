@@ -21,13 +21,23 @@
             android:hint="请输入发送内容，内容转 byte[] 发送"
             android:minLines="5" />
 
+
+        <ToggleButton
+            android:id="@+id/et_send_hex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="16进制"
+            android:textOff="字符串" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onSend"
             android:text="发送" />
-
     </LinearLayout>
+
+
+
 
 
 </RelativeLayout>
