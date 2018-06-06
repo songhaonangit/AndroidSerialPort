@@ -81,10 +81,13 @@ mSerialPortManager.setOnSerialPortDataListener(new OnSerialPortDataListener() {
 ``` Java
 boolean openSerialPort = mSerialPortManager.openSerialPort(device.getFile(), 9600);
 ```
+### 选择波特率
+   -默认9600
+   -"4800", "9600", "19200","38400","57600","115200","230400","460800","500000","576000",
+                    "921600", "1152000", "1500000", "2000000","2500000","3000000","3500000","4000000"
 
-
-
-### 选择收发数据的格式“字符串”or "十六进制"
+### 选择收发数据的格式
+“字符串”or "十六进制"
 
 ### 发送数据
 
